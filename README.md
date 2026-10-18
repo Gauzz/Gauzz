@@ -4,6 +4,15 @@ I'm a senior backend and DevOps engineer at Wow Labz. Since 2020 I've built APIs
 
 Reach me on [LinkedIn](https://www.linkedin.com/in/gaurav-rozatkar) or at [gauravrozatkar1@gmail.com](mailto:gauravrozatkar1@gmail.com).
 
+#### What I work on
+
+- **Full-stack development:** Node.js, TypeScript, Python, React, Vue, PostgreSQL, MongoDB, Redis
+- **DevOps and CI/CD:** AWS, Azure, Oracle Cloud, Docker, Kubernetes, GitHub Actions, Jenkins
+- **AI automation:** agent workflows with LangGraph, CrewAI and the Claude Agent SDK
+- **RAG pipelines:** LangChain, Qdrant, OpenAI and Azure OpenAI
+- **MLOps:** deploying and running models in production on Azure
+- **Video and voice:** Whisper, ffmpeg, Google TTS and AI voice generation
+
 #### Work
 
 <!-- work starts -->
@@ -14,6 +23,3 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/gaurav-rozatkar) or at [gaura
 - **Risk IQ.** Internal tool for Al Tamimi that finds the laws that apply to each client. It cut lawyers' work on legal registers by 95%.
 <!-- work ends -->
 
-#### Tools
-
-Node.js, TypeScript, Python (FastAPI), GraphQL, AWS, Docker, Kubernetes, GitHub Actions, PostgreSQL, MongoDB, Redis, RabbitMQ, Kafka
