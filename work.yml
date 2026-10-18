@@ -1,5 +1,5 @@
-# Your Work list. A GitHub Action shows 3 of these at a time and rotates
-# them on every run (daily, on push, or by hand). Edit and push to change them.
+# Your Work list. All entries always show; a GitHub Action rotates their
+# order on every run (daily, on push, or by hand). Edit and push to change them.
 # `link` is optional; leave it out for client work with no public page.
 
 - name: DarGlobal customer app

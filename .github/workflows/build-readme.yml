@@ -23,8 +23,6 @@ jobs:
           python-version: "3.12"
       - run: pip install pyyaml
       - run: python scripts/build_readme.py
-        env:
-          WORK_SHOW: 3   # how many projects to show at a time
       - name: Commit the updated README
         run: |
           if git diff --quiet README.md; then exit 0; fi

@@ -1,7 +1,7 @@
 """Rebuild the Work section of README.md from work.yml.
 
-Each run rotates the list: the starting project moves along by one every run
-(GITHUB_RUN_NUMBER), and WORK_SHOW sets how many projects appear (default 3).
+Each run rotates the order: every project is always shown, and the one at the
+top moves along by one on every run (GITHUB_RUN_NUMBER).
 Run locally with `python scripts/build_readme.py` (needs `pip install pyyaml`).
 """
 import os
@@ -37,9 +37,8 @@ def main():
     entries = yaml.safe_load(WORK.read_text(encoding="utf-8")) or []
     if entries:
         run = int(os.environ.get("GITHUB_RUN_NUMBER", "0"))
-        show = int(os.environ.get("WORK_SHOW", "3"))
         start = run % len(entries)
-        entries = (entries[start:] + entries[:start])[:show]
+        entries = entries[start:] + entries[:start]
     block = f"{START}\n{render(entries)}\n{END}"
     new = re.sub(re.escape(START) + r".*?" + re.escape(END), lambda _: block, readme, flags=re.S)
     if new != readme:
