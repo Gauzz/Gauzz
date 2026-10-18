@@ -10,8 +10,6 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/gaurav-rozatkar) or at [gaura
 - **DarGlobal customer app.** iOS and Android app for a real estate company. I moved slow Salesforce syncs onto RabbitMQ workers, which cut API response times.
 - **Karmeq.** Buy, sell and gift stocks, including to minors through custodians. Backend, AWS setup and FINRA certification testing.
 - **Risk IQ.** Internal tool for Al Tamimi that finds the laws that apply to each client. It cut lawyers' work on legal registers by 95%.
-- **Dyordex.** Real-time crypto prices, charts, gainers and losers, served in under 200 ms.
-- **Believer Bot.** Twitter bot for a Thums Up World Cup campaign that posted match updates in an AI-generated Shah Rukh Khan voice.
 <!-- work ends -->
 
 #### Tools

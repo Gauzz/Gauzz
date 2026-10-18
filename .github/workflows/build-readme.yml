@@ -6,6 +6,8 @@ on:
     paths:
       - work.yml
       - scripts/build_readme.py
+  schedule:
+    - cron: "17 3 * * *"   # every day at 08:47 IST
   workflow_dispatch:
 
 permissions:
@@ -21,10 +23,12 @@ jobs:
           python-version: "3.12"
       - run: pip install pyyaml
       - run: python scripts/build_readme.py
+        env:
+          WORK_SHOW: 3   # how many projects to show at a time
       - name: Commit the updated README
         run: |
           if git diff --quiet README.md; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Update Work section from work.yml"
+          git commit -am "Rotate Work section (run ${{ github.run_number }})"
           git push

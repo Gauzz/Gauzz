@@ -1,8 +1,10 @@
 """Rebuild the Work section of README.md from work.yml.
 
-Run locally with `python scripts/build_readme.py` (needs `pip install pyyaml`),
-or let the GitHub Action do it on every push that changes work.yml.
+Each run rotates the list: the starting project moves along by one every run
+(GITHUB_RUN_NUMBER), and WORK_SHOW sets how many projects appear (default 3).
+Run locally with `python scripts/build_readme.py` (needs `pip install pyyaml`).
 """
+import os
 import pathlib
 import re
 import sys
@@ -32,7 +34,12 @@ def main():
     readme = README.read_text(encoding="utf-8")
     if START not in readme or END not in readme:
         sys.exit(f"README.md is missing the {START} / {END} markers")
-    entries = yaml.safe_load(WORK.read_text(encoding="utf-8"))
+    entries = yaml.safe_load(WORK.read_text(encoding="utf-8")) or []
+    if entries:
+        run = int(os.environ.get("GITHUB_RUN_NUMBER", "0"))
+        show = int(os.environ.get("WORK_SHOW", "3"))
+        start = run % len(entries)
+        entries = (entries[start:] + entries[:start])[:show]
     block = f"{START}\n{render(entries)}\n{END}"
     new = re.sub(re.escape(START) + r".*?" + re.escape(END), lambda _: block, readme, flags=re.S)
     if new != readme:

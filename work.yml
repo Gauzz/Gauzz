@@ -1,5 +1,5 @@
-# Your Work list. Edit this file and push: a GitHub Action rebuilds the
-# Work section of README.md from it. Entries appear in this order.
+# Your Work list. A GitHub Action shows 3 of these at a time and rotates
+# them on every run (daily, on push, or by hand). Edit and push to change them.
 # `link` is optional; leave it out for client work with no public page.
 
 - name: DarGlobal customer app
