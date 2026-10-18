@@ -1,18 +1,55 @@
-# Your Work list. All entries always show; a GitHub Action rotates their
-# order on every run (daily, on push, or by hand). Edit and push to change them.
+# Your Work list. Each run of the GitHub Action (daily, on push, or by hand)
+# shows the next 5 of these, so different projects appear on every run.
+# Change how many show with WORK_SHOW in .github/workflows/build-readme.yml.
 # `link` is optional; leave it out for client work with no public page.
 
 - name: DarGlobal customer app
-  description: iOS and Android app for a real estate company. I moved slow Salesforce syncs onto RabbitMQ workers, which cut API response times.
+  description: iOS and Android app for a real estate company. I moved slow Salesforce syncs onto RabbitMQ workers and added Redis caching, which cut API response times.
 
 - name: Karmeq
   description: Buy, sell and gift stocks, including to minors through custodians. Backend, AWS setup and FINRA certification testing.
 
 - name: Risk IQ
-  description: Internal tool for Al Tamimi that finds the laws that apply to each client. It cut lawyers' work on legal registers by 95%.
+  description: Internal tool for Al Tamimi that finds the laws that apply to each client. It cut lawyers' work on legal registers by 95%. I led the team and ran the infrastructure.
 
 - name: Dyordex
-  description: Real-time crypto prices, charts, gainers and losers, served in under 200 ms.
+  description: Real-time crypto prices, charts, gainers and losers. I built the caching layer that got 90% of queries under 50 ms.
 
 - name: Believer Bot
   description: Twitter bot for a Thums Up World Cup campaign that posted match updates in an AI-generated Shah Rukh Khan voice.
+
+- name: Internal tool creator
+  description: Builds internal tools for startups from a prompt, using architect, tech lead, developer and tester agents on the Claude Agent SDK.
+
+- name: API migration for Emmes
+  description: Moved 11 healthcare applications to AWS AppSync for FedRAMP compliance, rewritten in TypeScript with GraphQL resolvers and CDK pipelines.
+
+- name: MFSC
+  description: US portal that turns complex regulatory PDF forms into guided online forms. I owned the Python backend that parses and generates the PDFs.
+
+- name: University Copilot
+  description: Learning platform with an exam portal. I built the pipeline that translates uploaded lecture videos into Indian languages with Whisper and Google TTS.
+
+- name: The Sleep Diary
+  description: Research and clinical app for tracking sleep, on the App Store and Google Play. Full-stack work on the Node.js backend and Vue admin panel.
+
+- name: Phygitalize
+  description: Photoshop plugin for creating and selling NFTs on OpenSea. I wrote the logic that splits royalties between current and past owners on every sale.
+
+- name: Optymedge
+  description: Lab and study certification system for Emmes, a US healthcare company. I worked on the certification module at the core of the product.
+
+- name: API management tool
+  description: An in-house API testing tool I designed and shipped for Wow Labz to cut spending on tools like Postman.
+
+- name: Rekt
+  description: Took over a web3 game's backend and rewrote its logic, from gameplay to fund reconciliation, in Python.
+
+- name: LateralX
+  description: My startup. A platform for non-coders to build AR and VR content and share it as a web link, used mostly by real estate teams. It was acquired.
+
+- name: Classmonitor Magic App
+  description: Cross-platform AR app built in Unity that teaches letters, numbers and facts to children aged 1 to 5.
+
+- name: Listapp
+  description: Android app connecting pharma suppliers with retailers around Indore. I maintained the app and its PHP backend.
