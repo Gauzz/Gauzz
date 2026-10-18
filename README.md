@@ -7,7 +7,8 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/gaurav-rozatkar) or at [gaura
 #### What I work on
 
 - **Full-stack development:** Node.js, TypeScript, Python, React, Vue, PostgreSQL, MongoDB, Redis
-- **DevOps and CI/CD:** AWS, Azure, Oracle Cloud, Docker, Kubernetes, GitHub Actions, Jenkins
+- **Cloud:** AWS, Azure, Google Cloud, Oracle Cloud
+- **DevOps and CI/CD:** Docker, Kubernetes, Nginx, GitHub Actions, Jenkins, AWS CDK
 - **AI automation:** agent workflows with LangGraph, CrewAI and the Claude Agent SDK
 - **RAG pipelines:** LangChain, Qdrant, OpenAI and Azure OpenAI
 - **MLOps:** deploying and running models in production on Azure
