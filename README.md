@@ -17,10 +17,10 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/gaurav-rozatkar) or at [gaura
 #### Work
 
 <!-- work starts -->
-- **University Copilot.** Learning platform with an exam portal. I built the pipeline that translates uploaded lecture videos into Indian languages with Whisper and Google TTS.
-- **The Sleep Diary.** Research and clinical app for tracking sleep, on the App Store and Google Play. Full-stack work on the Node.js backend and Vue admin panel.
-- **Phygitalize.** Photoshop plugin for creating and selling NFTs on OpenSea. I wrote the logic that splits royalties between current and past owners on every sale.
-- **Optymedge.** Lab and study certification system for Emmes, a US healthcare company. I worked on the certification module at the core of the product.
-- **API management tool.** An in-house API testing tool I designed and shipped for Wow Labz to cut spending on tools like Postman.
+- **Rekt.** Took over a web3 game's backend and rewrote its logic, from gameplay to fund reconciliation, in Python.
+- **LateralX.** My startup. A platform for non-coders to build AR and VR content and share it as a web link, used mostly by real estate teams. It was acquired.
+- **Classmonitor Magic App.** Cross-platform AR app built in Unity that teaches letters, numbers and facts to children aged 1 to 5.
+- **Listapp.** Android app connecting pharma suppliers with retailers around Indore. I maintained the app and its PHP backend.
+- **DarGlobal customer app.** iOS and Android app for a real estate company. I moved slow Salesforce syncs onto RabbitMQ workers and added Redis caching, which cut API response times.
 <!-- work ends -->
 
