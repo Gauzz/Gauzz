@@ -17,10 +17,10 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/gaurav-rozatkar) or at [gaura
 #### Work
 
 <!-- work starts -->
-- **Listapp.** Android app connecting pharma suppliers with retailers around Indore. I maintained the app and its PHP backend.
-- **DarGlobal customer app.** iOS and Android app for a real estate company. I moved slow Salesforce syncs onto RabbitMQ workers and added Redis caching, which cut API response times.
-- **Karmeq.** Buy, sell and gift stocks, including to minors through custodians. Backend, AWS setup and FINRA certification testing.
-- **Risk IQ.** Internal tool for Al Tamimi that finds the laws that apply to each client. It cut lawyers' work on legal registers by 95%. I led the team and ran the infrastructure.
-- **Dyordex.** Real-time crypto prices, charts, gainers and losers. I built the caching layer that got 90% of queries under 50 ms.
+- **Believer Bot.** Twitter bot for a Thums Up World Cup campaign that posted match updates in an AI-generated Shah Rukh Khan voice.
+- **Internal tool creator.** Builds internal tools for startups from a prompt, using architect, tech lead, developer and tester agents on the Claude Agent SDK.
+- **API migration for Emmes.** Moved 11 healthcare applications to AWS AppSync for FedRAMP compliance, rewritten in TypeScript with GraphQL resolvers and CDK pipelines.
+- **MFSC.** US portal that turns complex regulatory PDF forms into guided online forms. I owned the Python backend that parses and generates the PDFs.
+- **University Copilot.** Learning platform with an exam portal. I built the pipeline that translates uploaded lecture videos into Indian languages with Whisper and Google TTS.
 <!-- work ends -->
 
