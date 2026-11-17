@@ -17,10 +17,10 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/gaurav-rozatkar) or at [gaura
 #### Work
 
 <!-- work starts -->
-- **API management tool.** An in-house API testing tool I designed and shipped for Wow Labz to cut spending on tools like Postman.
-- **Rekt.** Took over a web3 game's backend and rewrote its logic, from gameplay to fund reconciliation, in Python.
-- **LateralX.** My startup. A platform for non-coders to build AR and VR content and share it as a web link, used mostly by real estate teams. It was acquired.
-- **Classmonitor Magic App.** Cross-platform AR app built in Unity that teaches letters, numbers and facts to children aged 1 to 5.
-- **Listapp.** Android app connecting pharma suppliers with retailers around Indore. I maintained the app and its PHP backend.
+- **DarGlobal customer app.** iOS and Android app for a real estate company. I moved slow Salesforce syncs onto RabbitMQ workers and added Redis caching, which cut API response times.
+- **Karmeq.** Buy, sell and gift stocks, including to minors through custodians. Backend, AWS setup and FINRA certification testing.
+- **Risk IQ.** Internal tool for Al Tamimi that finds the laws that apply to each client. It cut lawyers' work on legal registers by 95%. I led the team and ran the infrastructure.
+- **Dyordex.** Real-time crypto prices, charts, gainers and losers. I built the caching layer that got 90% of queries under 50 ms.
+- **Believer Bot.** Twitter bot for a Thums Up World Cup campaign that posted match updates in an AI-generated Shah Rukh Khan voice.
 <!-- work ends -->
 
